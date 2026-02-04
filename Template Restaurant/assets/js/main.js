@@ -1,6 +1,10 @@
 (function() {
   "use strict";
 
+  window.showAlert = function(message){
+    alert(message);
+  }
+  
   /**
    * Easy selector helper function
    */
@@ -268,5 +272,4 @@
       mirror: false
     })
   });
-
 })()
